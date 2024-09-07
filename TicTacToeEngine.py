@@ -11,7 +11,6 @@ class TicTacToeEngine:
         while [Self.Winner, Self.Loser] == [None, None]:
             Self.User_Turn()
             Self.Render_Board()
-
             if Self.CurrentPlayer == Self.PlayerOne:
                 Self.CurrentPlayer = Self.PlayerTwo
             else:
